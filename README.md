@@ -1,2 +1,2 @@
-# elev-projekt-ts
-Datorns Anatomy av Timmy Svensson EE15
+# elevprojekt-ts
+Anatomy of the Computer by Timmy Svensson EE15
