@@ -1,0 +1,404 @@
+body{
+	background-image: url(../img/1background.jpg);
+	background-size: 100%;
+	text-align: center;
+
+}
+
+ 
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+ 
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color: grey;
+}
+ .sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+.menu > ul > li {
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+ 
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background: black;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+h1{
+	font-family: cursive;
+	text-align: center;
+	font-size: 25mm;
+	color: ghostwhite;
+	text-decoration: underline;
+	
+}
+#EDD{
+    width: 300px;
+    height: 250px;
+}
+#mw2{
+   height: 250px;
+   width: 350px; 
+}
+#kabel{
+    height:400px;
+    width: 300px;
+}
+#motherboard{
+    width:450px;
+    height: 380px;
+}
+
+#sli2{
+    height: 350px;
+    width: 650px;
+}
+#dator{
+    width: 450px;
+    height: 450px;
+}
+#timmy{
+    width: 400px;
+    height: 400px;
+}
+#elias{
+    width: auto;
+    height: auto;
+}
+#gigabyteGPU{
+    width: 600px;
+    height: 350px;
+}
+#LEL{
+    height: 350px;
+    width: 440px;
+}
+#dimm{
+ width: 350px;
+    height: 200px;   
+}
+
+#arm{
+    height: 250px;
+    width: 250px;
+}
+#jul{
+height: 220px;
+width: 300px;    
+}
+#datorer{
+    width: auto;
+    height: auto;
+}
+#intel{
+    height: 150px;
+    width: 250px;
+}
+#amd1{
+    height: 150px;
+    width: 250px;
+}
+#p4{
+    height: 220px;
+    width: 400px;
+}
+#Mark{
+    height:350px;
+    width:150px;
+}
+#Storlekar{
+    width: 650px;
+    height: 250px;
+}
+#AVA{
+    height: 350px;
+    width: 350px;
+}
+#hh33{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8mm;
+    text-decoration: wavy;
+}
+#julen{ 
+    height: 220px;
+    width: 400px;
+}
+#molex{
+  height: 220px;
+    width: 400px;  
+}
+#sataP{
+  height: 220px;
+    width: 400px;  
+}
+#pin6{
+  height: 220px;
+    width: 400px;  
+}
+#plus{
+  height: 200px;
+    width: 200px;  
+}
+#vmemory{
+    width: auto;
+    height: auto;
+}
+#sodimm{
+    height: 200px;
+    width: 350px;
+}
+#mw22{
+    height: 300px;
+    width: 450px;
+}
+#asusGPU{
+    width: 530px;
+    height: 350px;
+}
+#crossfire{
+    width: 450px;
+    height: 400px;
+}
+#p90{
+    width: 650px;
+    height: 350px;
+}
+#crossfireX{
+    height: 100px;
+    width: 300px;
+}
+#nvidia{
+    width:300px;
+    height:100px;
+}
+#amd{
+    width: 100px;
+    height: 100px;
+}
+#robin{
+    width: 400px;
+    height: 400px;
+}
+#laptop{
+    width: 450px;
+    height: 420px;
+}
+#asus{
+    height: 100px;
+    width: 200px;
+}
+#gigabyte{
+    height: 100px;
+    width: 300px;
+}
+#msi{
+    height: 100px;
+    width: 200px;
+}
+#wok{
+    height: 270px;
+    width: 370px;
+}
+h2{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 10mm;
+	color: ghostwhite;
+	text-align: center;
+	table-layout: auto;
+}
+#Real{
+width: 15cm;
+height: 15mm;
+}
+div.ZXZ{
+    margin-top: 5px;
+    color: white;
+}
+ div.cities {
+    background-color:black;
+    color:white;
+    margin:20px;
+    padding:20px;
+    font-size: 5mm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+     div.MSR1{         
+    color:white;
+    padding: 80px;
+    margin: 5px;
+    font-size: 5mm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+     div.MSR {
+    color:white;
+    margin:5px;
+    padding:85px;
+    font-size: 5mm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+ div.VMP1 {
+    background-image:url(http://res.freestockphotos.biz/pictures/5/5745-the-moon-and-stars-background-pv.jpg);
+    background-size: 100%;
+    color:white;
+    margin:20px;
+    padding:20px;
+    font-size: 5mm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+p{
+	font-size: 5mm;
+	text-align: center;
+	color: ghostwhite;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+h3{
+	font-size: 7mm;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+color: ghostwhite;
+
+    }
+
+img{
+	width: 50mm;
+	height: 40mm;
+}
+
+	tr, td, table{
+	width: 80px;
+	height: 40px;
+	color: ghostwhite;
+	text-align: center;
+	font-size: 110%;
+	display: inline-table
+	
+}
+
+
+ul, li{
+	text-align: center;
+	font-size: 30px;
+	display: inline-table;
+	background-size: 650%;
+	
+}
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background: black
+}
+ 
+.menu {
+    width:1000px;
+    margin:0px auto;
+}
+ 
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color: dimgrey;
+}
+
+    
